@@ -1,0 +1,32 @@
+{
+  "name": "friendfinder-express-node-example",
+  "version": "1.0.0",
+  "description": "express,node and routing example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikedeleamon/friendfinder-express-node-example.git"
+  },
+  "keywords": [
+    "routing",
+    "express",
+    "node"
+  ],
+  "author": "Dele Amon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikedeleamon/friendfinder-express-node-example/issues"
+  },
+  "homepage": "https://github.com/mikedeleamon/friendfinder-express-node-example",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mysql": "^2.11.1",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7"
+  }
+}
