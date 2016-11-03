@@ -10,11 +10,14 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.text());
 app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
-
+var friendArr=[]
 app.get("/api/friends", function(req, res){
-	
+	res.send(friendArr)
 });
 
 app.post("/api/friends", function(req, res){
-	res.send(res);
+	
+	var newSurvey = req.body;
+	friendArr.push(newSurvey);
+	res.json(friendArr);
 });
